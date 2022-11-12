@@ -1,0 +1,36 @@
+.button{
+	display: inline-block;
+	position: relative;
+	padding: 16px 40px;
+	background: linear-gradient(55.95deg, #FF3F3A 0%, #e15c0f 100%);
+	font-weight: 700;
+   line-height: 1.25;
+   letter-spacing: 0.5px;
+   color: #FFFFFF;
+	border-radius: 5px;
+}
+.button--border{
+	background: transparent;
+	position: relative;
+	border: 1px solid #FF3F3A;
+	color:#FF3F3A;
+	padding: 15px 40px;
+
+}
+
+.titel {
+	display: flex;
+	flex-direction: column;
+	row-gap: 8px;
+}
+.titel__subtitel {
+	text-transform: uppercase;
+	font-weight: 700;
+   line-height: 150%;
+   letter-spacing: 1px;
+}
+.titel__titel {
+	font-weight: 900;
+   font-size: 46px;
+   line-height: 130%;
+}
